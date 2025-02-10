@@ -1,2 +1,24 @@
-body { font-family: 'Poppins', sans-serif; text-align: center; padding: 20px; }
-    h1 { color: #333; } .btn { background: #007bff; color: white; padding: 10px 20px; text-decoration: none; }
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.hero {
+    background: lightblue;
+    padding: 20px;
+}
+.hero img {
+    max-width: 100%;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.feature {
+    width: 30%;
+}
+.feature img {
+    max-width: 100%;
+}
